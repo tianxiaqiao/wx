@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/cart/cart"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "匡威",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color":"#fff",
+    "selectedColor":"#f66",
+    "backgroundColor":"#00f",
+    "borderStyle":"black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath":"resources/home.png",
+        "selectedIconPath":"resources/home_active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "resources/cart.png",
+        "selectedIconPath": "resources/cart_active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "resources/user.png",
+        "selectedIconPath": "resources/user_active.png"
+      }
+    ]
+  }
+}
